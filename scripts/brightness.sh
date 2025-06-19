@@ -5,7 +5,7 @@ case "$1" in
         brightnessctl -q s +10%
         ;;
     down)
-        brightnessctl -q s 10%-
+        brightnessctl -q s 5%-
         ;;
     *)
         echo "Usage: $0 {up|down}"
